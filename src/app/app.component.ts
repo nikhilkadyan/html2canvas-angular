@@ -6,7 +6,7 @@ declare let html2canvas: any;
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  name = 'Angular';
+  string: string;
 
   save(fileName){
     // First we get our section to save from dom

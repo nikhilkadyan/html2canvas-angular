@@ -9,6 +9,11 @@
     3. We make our function to call html2canvas to save div as png or jpg.
   </p>
   <hr>
+  <h4>Your name:</h4>
+  <input type="text" [(ngModel)]="string">
+  <hr>
+  <p>Thanks for visiting <b>{{ string }}</b>!</p>
+  <hr>
   <button (click)="save('image.png')">Save <b>PNG</b></button>
   <button (click)="save('image.jpg')">Save <b>JPG</b></button>
 </div>
